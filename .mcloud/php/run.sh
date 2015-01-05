@@ -26,7 +26,7 @@ if [ ! -d /var/www/sf ]; then
     echo '            host: %solr_host%' >> /var/www/sf/app/config/config.yml
     echo '            port: %solr_port%' >> /var/www/sf/app/config/config.yml
     echo '            path: /solr' >> /var/www/sf/app/config/config.yml
-    echo '            core: active' >> /var/www/sf/app/config/config.yml
+    echo '            core: packagist' >> /var/www/sf/app/config/config.yml
     echo '            timeout: 5' >> /var/www/sf/app/config/config.yml
 
 else
