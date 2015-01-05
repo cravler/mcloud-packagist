@@ -1,0 +1,3 @@
+* * * * * /var/www/sf/app/console packagist:update --no-debug --env=prod
+* * * * * /var/www/sf/app/console packagist:dump --no-debug --env=prod
+* * * * * /var/www/sf/app/console packagist:index --no-debug --env=prod
