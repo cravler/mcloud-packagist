@@ -18,6 +18,7 @@
 
 ``` bash
 mcloud init packagist [path_to_mcloud_packagist]
+```
 
 ### Step 5: Start app
 
