@@ -14,13 +14,13 @@ redis:
     image: redis:2.8
 
 solr:
-    image: apopelo/solr-3.6.2
+    image: apopelo/solr:3.6.2
     volumes:
         .mcloud/solr/schema.xml: /opt/solr/example/solr/conf/schema.xml
         .mcloud/solr/solr.xml: /opt/solr/example/solr/solr.xml
 
 php:
-    wait: 1800
+    wait: 30
     build: .mcloud/php
     env:
         PHP5_DATE_TIMEZONE: 'Europe/Tallinn'
