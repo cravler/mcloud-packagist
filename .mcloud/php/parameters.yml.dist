@@ -17,6 +17,7 @@ parameters:
     # router.request_context.scheme: https
 
     redis_dsn: redis://redis/1
+    redis_session_dsn: redis://redis/2
 
     solr_host: solr
     solr_port: 8983
